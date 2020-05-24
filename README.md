@@ -40,6 +40,8 @@ Gradle includes `Plugin`s
 
 > `./gradlww properties` shows properties. How to use them in scripts? What good are they for?
 
+> dependencies stored in `~/.gradle`
+
 ### Tasks
 
 * Copy
@@ -56,3 +58,11 @@ Gradle includes `Plugin`s
 ### Build scans
 
 > Add --scan to any command, generates a link, requires e-mail confirmation every time?
+
+### [Building Java & JVM projects](https://docs.gradle.org/current/userguide/building_java_projects.html)
+
+`init` and select _application_ and _Java_ (and _JUnit 5_)
+
+* `./gradlew clean`
+* `./gradlew build`
+* `./gradlew run`
