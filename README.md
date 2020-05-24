@@ -20,6 +20,8 @@
 
 ## Building Java Libraries
 
+* `./gradlew jar`
+* `./gradlew javadoc`
 
 ### `init`-ed project has
 * two build scripts
@@ -68,5 +70,9 @@ Gradle includes `Plugin`s
 
 > Add --scan to any command, generates a link, requires e-mail confirmation every time?
 
+## [Gradle Build Language Reference](https://docs.gradle.org/5.0/dsl/)
+
 ### [Building Java & JVM projects](https://docs.gradle.org/current/userguide/building_java_projects.html)
 
+* [The Java Plugin](https://docs.gradle.org/5.0/userguide/java_plugin.html)
+    * [Project layout](https://docs.gradle.org/5.0/userguide/java_plugin.html#sec:java_project_layout)

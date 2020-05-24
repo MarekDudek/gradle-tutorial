@@ -11,6 +11,8 @@ plugins {
     id 'java-library'
 }
 
+version = "0.1.0"
+
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
@@ -34,4 +36,11 @@ dependencies {
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes('Implementation-Title': project.name,
+                'Implementation-Version': project.version)
+    }
 }
