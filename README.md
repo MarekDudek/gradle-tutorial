@@ -16,7 +16,7 @@
 * two build scripts
 * wrapper
     * with config
-* build.gradle - build script
+* build.gradle - build script a.k.a. _build file_
     * tasks go here
 * settings.gradle - script for configuring the above?
 
@@ -36,6 +36,7 @@ Gradle includes `Plugin`s
 
 > `Task` of type `zip` is configured by settings. Only archive file name specified, archive destination  taken from settings.
 
+> `./gradlww properties` shows properties. How to use them in scripts? What good are they for?
 
 ### Tasks
 
