@@ -20,8 +20,36 @@
     * tasks go here
 * settings.gradle - script for configuring the above?
 
-# Generals
+### Generals
 
 `Project` includes a collection of `Task`s
 
 `Task` performs basic operation 
+
+Gradle comes with library of `Task`s
+
+Gradle includes `Plugin`s
+
+`Plugin`s provide definitions of `Task`s
+
+> `base` plugin defines `clean` and `build` tasks
+
+> `Task` of type `zip` is configured by settings. Only archive file name specified, archive destination  taken from settings.
+
+
+### Tasks
+
+* Copy
+* Zip
+
+### Plugins
+
+* base
+
+### [Command line interface](https://docs.gradle.org/4.10.3/userguide/command_line_interface.html)
+
+`./gradlew tasks` - shows available tasks
+
+### Build scans
+
+> Add --scan to any command, generates a link, requires e-mail confirmation every time?
