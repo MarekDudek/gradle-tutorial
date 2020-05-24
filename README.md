@@ -10,9 +10,9 @@
 
 * [Command line completion](https://github.com/gradle/gradle-completion)
 
-## Creating new Gradle builds
+## Creating New Gradle Builds
 
-### Init-ed project has
+### `init`-ed project has
 * two build scripts
 * wrapper
     * with config
@@ -20,7 +20,9 @@
     * tasks go here
 * settings.gradle - script for configuring the above?
 
-### Generals
+## Building Java Applications
+
+## Generals
 
 `Project` includes a collection of `Task`s
 
