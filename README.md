@@ -12,6 +12,15 @@
 
 ## Creating New Gradle Builds
 
+`init` and select _application_ and _Java_ (and _JUnit 5_)
+
+* `./gradlew clean`
+* `./gradlew build`
+* `./gradlew run`
+
+## Building Java Libraries
+
+
 ### `init`-ed project has
 * two build scripts
 * wrapper
@@ -61,8 +70,3 @@ Gradle includes `Plugin`s
 
 ### [Building Java & JVM projects](https://docs.gradle.org/current/userguide/building_java_projects.html)
 
-`init` and select _application_ and _Java_ (and _JUnit 5_)
-
-* `./gradlew clean`
-* `./gradlew build`
-* `./gradlew run`
