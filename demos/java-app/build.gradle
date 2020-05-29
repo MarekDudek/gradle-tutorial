@@ -4,6 +4,9 @@ plugins {
     id 'application'
 }
 
+version = "1.0"
+description = "Demo Java application for experimenting"
+
 repositories {
     jcenter()
 }
