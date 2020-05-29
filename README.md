@@ -16,6 +16,7 @@
 
 * `./gradlew clean`
 * `./gradlew build`
+* `./gradlew test`
 * `./gradlew run`
 
 ## Building Java Libraries
@@ -49,7 +50,7 @@ Gradle includes `Plugin`s
 
 > `Task` of type `zip` is configured by settings. Only archive file name specified, archive destination  taken from settings.
 
-> `./gradlww properties` shows properties. How to use them in scripts? What good are they for?
+> `./gradlew properties` shows properties. How to use them in scripts? What good are they for?
 
 > dependencies stored in `~/.gradle`
 
