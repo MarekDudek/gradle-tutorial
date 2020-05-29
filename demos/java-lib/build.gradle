@@ -1,7 +1,9 @@
-
 plugins {
     id 'java-library'
 }
+
+version = "0.1"
+description = "Demo Java library for experimenting"
 
 repositories {
     jcenter()
