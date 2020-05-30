@@ -1,4 +1,4 @@
-rootProject.name = 'multi-project-build'
+rootProject.name = 'Multi-project build'
 
 include 'library-mod'
 include 'app-mod'
